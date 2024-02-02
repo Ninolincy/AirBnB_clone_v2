@@ -10,7 +10,7 @@ env.user = 'ubuntu'
 env.key_filename = '~/.ssh/id_rsa'
 env.use_ssh_config = False
 
-
+cd = 'cd /data/web_static/releases'
 def do_clean(number=0):
     """
     Delete out-of-date archives.
