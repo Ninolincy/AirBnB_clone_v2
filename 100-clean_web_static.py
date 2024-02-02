@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# eletes out-of-date archives, using the function do_clean
+# deletes out-of-date archives, using the function do_clean
 
 from fabric.api import env, run, local
 from datetime import datetime
